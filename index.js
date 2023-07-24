@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const port = process.env.port || 4000;
 
 const app = express();
 
@@ -12,6 +13,6 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.listen(4000, () => {
+app.listen(port, () => {
   console.log("server started at port 4000");
 });
