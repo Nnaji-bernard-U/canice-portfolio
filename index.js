@@ -13,6 +13,18 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/portfolio-details-one", (req, res) => {
+  res.render("portfolio-details");
+});
+
+app.get("/portfolio-details-two", (req, res) => {
+  res.render("portfolio-details");
+});
+
+app.get("/portfolio-details-three", (req, res) => {
+  res.render("portfolio-details");
+});
+
 app.listen(port, () => {
   console.log("server started at port 4000");
 });
