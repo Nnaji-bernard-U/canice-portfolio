@@ -14,15 +14,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/portfolio-details-one", (req, res) => {
-  res.render("portfolio-details");
+  res.render("portfolio-details-one");
 });
 
 app.get("/portfolio-details-two", (req, res) => {
-  res.render("portfolio-details");
+  res.render("portfolio-details-two");
 });
 
 app.get("/portfolio-details-three", (req, res) => {
-  res.render("portfolio-details");
+  res.render("portfolio-details-three");
 });
 
 app.listen(port, () => {
